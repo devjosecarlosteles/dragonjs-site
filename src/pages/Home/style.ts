@@ -45,6 +45,18 @@ const DownloadNow = styled.button`
     color: #FFF;
 `
 
+const ContainerOs = styled.div`
+    display: flex;
+
+    align-items: center;
+
+    font-size: 0.8rem;
+
+    span {
+        font-size: 0.7rem;
+    }
+`
+
 const LearnMore = styled.button`
     width: 160px;
     height: 30px;
@@ -71,6 +83,7 @@ export {
     Container, 
     Content, 
     DownloadNow, 
+    ContainerOs,
     LearnMore, 
     ButtonsContainer 
 }
